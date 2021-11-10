@@ -1,16 +1,31 @@
 
 This is my attempt at a big project.
 
-Docker
+## Docker
 To run the current Dockerfile
 
+```shell
 docker build -t application-tag .
+```
 
+```shell
 docker run -it --rm -p 9091:9090 -e TEST_ENV=sampleEnv application-tag
+```
+
+## Tasks
+
+    1. Working docker-compose
+    2. Include a SQL db
+    3. Kubernetes
+    4. Ingress
+    5. Multiple parts within service
+    6. Multiple entry points
+        a. Registration
+        b. main entrance
+    7.Certificates
 
 
-
-Some of the areas I want to touch on areas
+## Future Topic Ideas
     1. Microservices
     2. Kubernetes
     3. Docker
