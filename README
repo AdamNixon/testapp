@@ -6,9 +6,12 @@ To run the current Dockerfile
 
 docker build -t application-tag .
 
-docker run -it --rm -p 9091:9090 -e TEST_ENV=sampleEnv application-tag
+docker run -it --rm -p 9090:9090 -e TEST_ENV=sampleEnv application-tag
 
 
+## Plan for online fast food
+Currently working through Nic Jackson's Youtube series 
+Add CI
 
 Some of the areas I want to touch on areas
     1. Microservices

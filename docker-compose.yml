@@ -2,5 +2,7 @@ version: '2'
 services:
   go-server:
     build: .
+    ports:
+      - "9090:9090"
     environment:
       - TEST_ENV=test
