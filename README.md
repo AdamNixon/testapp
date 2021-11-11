@@ -6,9 +6,8 @@ To run the current Dockerfile
 
 ```shell
 docker build -t application-tag .
-```
-
 docker run -it --rm -p 9090:9090 -e TEST_ENV=sampleEnv application-tag
+```
 
 ## Tasks
 
