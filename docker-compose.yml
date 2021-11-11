@@ -1,6 +1,6 @@
 version: '2'
 services:
   go-server:
-    build: ./dockerfile
+    build: .
     environment:
       - TEST_ENV=test
