@@ -10,8 +10,14 @@ docker run -it --rm -p 9090:9090 -e TEST_ENV=sampleEnv application-tag
 ```
 
 ## Tasks
-    1. Ep 3 Restful services
-    2. Factor code into new dir and docker into its own dir
+    1. set up new docker
+    2. Episode 4
+
+## Setup
+
+Can have GET request to get food.
+PUT request to create user account infomation
+Some form of billing.
 
 ## Plan for online fast food
 Currently working through Nic Jackson's Youtube series 
