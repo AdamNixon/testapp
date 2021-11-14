@@ -10,6 +10,8 @@ docker run -it --rm -p 9090:9090 -e TEST_ENV=sampleEnv application-tag
 ```
 
 ## Tasks
+    1. Ep 3 Restful services
+    2. Factor code into new dir and docker into its own dir
 
 ## Plan for online fast food
 Currently working through Nic Jackson's Youtube series 
@@ -23,7 +25,7 @@ Currently working through Nic Jackson's Youtube series
     6. Multiple entry points
         a. Registration
         b. main entrance
-    7.Certificates
+    7. Certificates
 
 
 ## Future Topic Ideas
